@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡方式 - 成大附工電子科</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>成大附工電子科 - 學生自我介紹</h1>
+    </header>
+    <nav>
+        <a href="index.html">首頁</a>
+        <a href="info.html">個人信息</a>
+        <a href="achievements.html">學術成就</a>
+        <a href="projects.html">項目經歷</a>
+        <a href="skills.html">技能</a>
+        <a href="interests.html">興趣愛好</a>
+        <a href="contact.html">聯絡方式</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h2>聯絡方式</h2>
+            <p>連絡電話: 0911-XXX-587</p>
+            <p>電子郵件: fangchongkui@example.com</p>
+            <form action="send_mail.php" method="post">
+                <label for="name">姓名:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">電子郵件:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">留言:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                <input type="submit" value="提交">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 方崇魁. 版權所有。</p>
+    </footer>
+</body>
+</html>
