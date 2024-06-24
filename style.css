@@ -41,6 +41,7 @@ nav a:hover {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 10px;
+    margin-bottom: 60px; /* 添加底部外邊距以避免被頁腳遮擋 */
 }
 .profile-pic {
     display: block;
@@ -67,9 +68,9 @@ footer {
     padding: 10px 0;
     background-color: #333;
     color: white;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 100%;
 }
 form {
     display: flex;
